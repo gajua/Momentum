@@ -1,0 +1,48 @@
+h2{
+  position: relative;
+  display: flex;
+  gap: 10px;
+  color: #fff;
+  font-size: 4em;
+  cursor: pointer;
+}
+h2 span{
+  position: relative;
+  filter: blur(3px);
+  padding: 0 5px;
+  transition: .5s;
+}
+h2 span:hover{
+  filter: blur(0px);
+  transition: .5s;
+  font-size: larger;
+}
+h2 span i {
+  position: absolute;
+  inset: 0;
+  background: transparent;
+}
+h2 span:hover i::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2px;
+  height: 8px;
+  background: #fff;
+  box-shadow: 0 53px #fff,
+  36px 53px #fff,
+  36px 0 #fff;
+}
+h2 span:hover i::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+  height: 2px;
+  background: #fff;
+  box-shadow: 0 60px #fff,
+  30px 60px #fff,
+  30px 0 #fff;
+}
