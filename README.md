@@ -4,4 +4,4 @@
 
 ![화면 캡처 2022-08-11 154524](https://user-images.githubusercontent.com/101968934/184078272-1cb4d969-61d5-411d-8ee7-63e8305fffd0.png)
 
-JS이용한 TO DO LIST 만들기
+JS를 이용하여 로컬스토리지에 저장한 TO DO LIST 만들기
